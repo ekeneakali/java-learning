@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pop</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+<body>
+    <h1 id="heading">heading one</h1>
+    <div class="product-row row"></div>
+    <script>
+    //     let heading = document.getElementById('heading');//.innerHTML = 'heading';
+    //     //heading.style.color = 'green'
+    //    // console.log(heading);
+    //    //heading.innerHTML = 'fine boy';
+    //    heading.innerText = '<em>nice guy</em>'
+    //    console.log(heading);
+    let container = document.getElementsByClassName('product-row')
+    console.log(container);
+    let image = [
+        {
+            name:'jack',
+            model:5,
+            img:'../images/profile1.jpg',
+        },
+        {
+            name:'lennon',
+            model:5,
+            img:'../images/profile2.pngg'
+        },
+    ];
+    for (let index = 0; index < image.length; index++) {
+        const element = image[index];
+        //console.log(element);
+        container.innerHTML  +=`<div class="col-md-4 mb-5">
+            ${element.name}: ${element.model}
+            </div>
+        `
+
+        
+    }
+    </script>
+    
+</body>
+</html>

@@ -1,0 +1,51 @@
+.rounded{
+    vertical-align: middle;
+    text-align: center;
+}
+ /* .calm{
+    width:150px;
+}
+.calm2{
+    width:150px;
+}
+.calm3{
+    width:150px;
+    
+} */
+@media screen and (max-width: 992px) {
+    body{
+        background-color: olive;
+        color: white;
+    }
+    
+}
+.swell1{
+    position: relative;
+    vertical-align: middle;
+    text-align: center;
+    color: white;
+    left: 90px;
+    width: 800px;
+    height: 400px;
+    border-radius: 30px;
+    top: 20px;
+    border: cornsilk;
+    box-shadow: cyan;
+    
+}
+.swell2{
+    position: relative;
+    bottom: 20px;
+    left: 400px;
+    border-radius: 20px;
+    vertical-align: middle;
+    text-align: center;
+    width: 400px;
+    height: 200px;
+    border: darkolivegreen;
+
+}
+/* .calm3{
+    position: relative;
+    bottom: 600px;
+} */
